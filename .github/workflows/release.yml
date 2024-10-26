@@ -24,7 +24,7 @@ jobs:
           release_name: Release ${{ github.run_number }}
           draft: false
           prerelease: false
-  build:
+  build_ubuntu:
     name: Release assets
     needs: create_release
     runs-on: ubuntu-latest
